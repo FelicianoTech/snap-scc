@@ -1,0 +1,24 @@
+name: scc
+version: v1.12.1
+summary: "scc is a very fast & accurate code counter counting lines of code by language."
+description: |
+  A tool similar to cloc, sloccount and tokei. For counting physical the lines of code, blank lines, comment lines, and physical lines of source code in many programming languages.
+
+  Goal is to be the fastest code counter possible, but also perform COCOMO calculation like sloccount and to estimate code complexity similar to cyclomatic complexity calculators.
+
+  scc is made by Ben Boyter. This snap is packaged by Ricardo N Feliciano (FelicianoTech) using the `scc` source code available by Ben on GitHub.
+grade: stable
+confinement: strict
+icon: icon.png
+base: core18
+
+apps:
+  scc:
+    command: scc
+    plugs:
+      - home
+
+parts:
+  scc:
+    plugin: dump
+    source: https://github.com/boyter/scc/releases/download/v1.12.1/scc-1.12.1-x86_64-unknown-linux.zip
