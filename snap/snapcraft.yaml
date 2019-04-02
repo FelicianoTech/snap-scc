@@ -1,5 +1,5 @@
 name: scc
-version: v2.2.0
+version: v2.3.0
 summary: "scc is a very fast & accurate code counter counting lines of code by language."
 description: |
   A tool similar to cloc, sloccount and tokei. For counting physical the lines of code, blank lines, comment lines, and physical lines of source code in many programming languages.
@@ -21,4 +21,4 @@ apps:
 parts:
   scc:
     plugin: dump
-    source: https://github.com/boyter/scc/releases/download/v2.2.0/scc-2.2.0-x86_64-unknown-linux.zip
+    source: https://github.com/boyter/scc/releases/download/v2.3.0/scc-2.3.0-x86_64-unknown-linux.zip
