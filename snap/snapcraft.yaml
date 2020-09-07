@@ -10,7 +10,7 @@ description: |
 grade: stable
 confinement: strict
 icon: icon.png
-base: core18
+base: core20
 
 apps:
   scc:
