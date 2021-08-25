@@ -31,6 +31,7 @@ scc path/to/code
 ```
 
 `scc` will then run its analysis and generate a table of results for you.
+**Note:** If you use `scc` via the snap, the codebase you are checking needs to be within your user's home directory in order for it to have the correct permissions to run.
 More usage instructions can be found in the upstream repo's [usage secction](https://github.com/boyter/scc#usage) though the easiest way would be to run `scc --help`.
 
 
