@@ -1,4 +1,5 @@
 name: scc
+title: "scc"
 version: v3.1.0
 summary: "scc is a very fast & accurate code counter counting lines of code by language."
 description: |
@@ -7,6 +8,12 @@ description: |
   Goal is to be the fastest code counter possible, but also perform COCOMO calculation like sloccount and to estimate code complexity similar to cyclomatic complexity calculators.
 
   scc is made by Ben Boyter. This snap is packaged by Ricardo N Feliciano (FelicianoTech) using the `scc` source code available by Ben on GitHub.
+contact: https://github.com/FelicianoTech/snap-scc/issues
+source-code: https://github.com/FelicianoTech/snap-scc
+issues:
+  - https://github.com/FelicianoTech/snap-scc/issues
+  - https://github.com/boyter/scc/issues
+website: https://github.com/FelicianoTech/snap-scc
 grade: stable
 confinement: strict
 icon: icon.png
