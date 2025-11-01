@@ -12,6 +12,11 @@ confinement: strict
 icon: icon.png
 base: core24
 
+platforms:
+  amd64:
+  arm64:
+  armhf:
+
 apps:
   scc:
     command: bin/scc
