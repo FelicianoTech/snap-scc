@@ -47,6 +47,10 @@ sudo snap install --classic snapcraft multipass
 snapcraft snap
 ```
 
+### Publishing
+
+CircleCI support is dropped. Thought was given to support Snapcraft's GitHub builder or their GitHub Actions but both seem to not be well maintained. Instead, like [Pocket Casts Desktop App](https://github.com/FelicianoTech/pocket-casts-desktop-app), I will run `snapcraft remote-build` locally when ready to publish. Not ideal but it works.
+
 
 ## License
 
