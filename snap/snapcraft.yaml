@@ -10,15 +10,20 @@ description: |
 grade: stable
 confinement: strict
 icon: icon.png
-base: core20
+base: core24
 
 apps:
   scc:
-    command: scc
+    command: bin/scc
     plugs:
       - home
 
 parts:
-  scc:
-    plugin: dump
-    source: https://github.com/boyter/scc/releases/download/v3.1.0/scc_3.1.0_Linux_x86_64.tar.gz
+  go:
+    plugin: go
+    build-snaps:
+      - go
+    source: https://github.com/boyter/scc
+    source-type: git
+    source-tag: $SNAPCRAFT_PROJECT_VERSION
+    source-depth: 1
